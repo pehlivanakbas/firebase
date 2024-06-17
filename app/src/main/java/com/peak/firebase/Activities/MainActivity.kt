@@ -169,7 +169,7 @@ dialogMessage.setNegativeButton("Cancel", DialogInterface.OnClickListener{
                 if(task.isSuccessful){
 
                     for (imageName in imageNameList){
-                        val imagereferance=storagereferrance.child("images").child(imageName)
+                        val imagereferance=storagereferrance.child("images").child(imageName    )
 
 
                         imagereferance.delete()
