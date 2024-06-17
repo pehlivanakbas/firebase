@@ -46,11 +46,11 @@ class PhoneActivity : AppCompatActivity() {
 
         mCallbacks=object :PhoneAuthProvider.OnVerificationStateChangedCallbacks(){
             override fun onVerificationCompleted(p0: PhoneAuthCredential) {
-                TODO("Not yet implemented")
+//sdf
             }
 
             override fun onVerificationFailed(p0: FirebaseException) {
-                 TODO("Not yet implemented")
+//sdf
             }
 
             override fun onCodeSent(p0: String, p1: PhoneAuthProvider.ForceResendingToken) {

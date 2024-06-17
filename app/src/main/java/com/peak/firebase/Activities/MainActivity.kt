@@ -51,7 +51,7 @@ lateinit var mainBinding: ActivityMainBinding
                 viewHolder: RecyclerView.ViewHolder,
                 target: RecyclerView.ViewHolder
             ): Boolean {
-                TODO("Not yet implemented")
+             TODO("Not yet implemented")
             }
 
 
@@ -106,7 +106,7 @@ lateinit var mainBinding: ActivityMainBinding
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+//sdf
             }
         }
         )
@@ -159,7 +159,7 @@ dialogMessage.setNegativeButton("Cancel", DialogInterface.OnClickListener{
                }
 
                override fun onCancelled(error: DatabaseError) {
-                   TODO("Not yet implemented")
+//sdf
                }
            })
 
